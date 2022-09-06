@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("../image/1.jpeg") no-repeat;
+    opacity:0.7; /*设置透明度*/
+    background-size: cover;
+}
+#flag{
+    margin: 0 auto;
+    /*background-color: #4caf50;*/
+    width: 400px;
+    height: 200px;
+}
+#attack{
+    /*background-color: black;*/
+    float: left;
+    width: 50%;
+    height: 40px;
+}
+#attack select{
+    margin-top: 10px;
+    margin-left: 15%;
+
+}
+#input{
+    /*background-color: #3a93a1;*/
+    float: left;
+    width: 50%;
+    height: 40px;
+}
+#input input{
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 7%;
+}
+#submit{
+    text-align: center;
+}
+#submit input{
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+}
+#help p{
+    color: red;
+    text-align: center;
+
+}
